@@ -46,7 +46,7 @@ nav ul li a {
 .slider-container {
     position: relative;
     width: 100%;
-    max-width: 887px;
+    max-width: 1500px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
 }
