@@ -1,0 +1,162 @@
+body {
+    font-family: times new roman;
+    margin: 0;
+    padding: 0;
+}
+
+#teks{
+    background-color:#C96868;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    color:white;
+    font-size: 18px; 
+    font-family: georgia; 
+    padding-top: 10PX;
+    padding-bottom: 10PX;
+}
+
+header {
+    background-color:#C96868;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+}
+
+.slider-images {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+
+.slider-images img {
+    width: 100%;
+}
+
+.slider-buttons {
+    margin-left: 15px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.slider-buttons button {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.slider-buttons button:hover {
+    background-color: rgba(0, 0, 0, 1.0);
+}
+
+.sosmed-box{
+    background-color:#C96868;
+    display: flex;
+    margin: 20px; margin-left:40px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 16px;
+    width: 560px;
+    color: white;
+}
+
+.sosmed-box h1{
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.sosmed-description p{
+    margin: 40px; margin-left: 60px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    font-family: georgia;
+}
+
+.sosmed-description a{
+    color:#C96868;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    padding-bottom:2px;
+    background-color:#C96868;
+    color: black;
+}
+
+.website a{
+    color: whitesmoke;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.website p{
+    font-size: 15px;
+    color: black;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #55ACEE;
+  color: white;
+}
